@@ -1,0 +1,203 @@
+li{
+    list-style-type: none; /* On ne veut aucune puce */
+   
+}
+
+ul{
+    display: flex; /* on définit l'élément comme une flexbox*/
+    padding-left: 0; 
+    justify-content: space-around;
+    margin : 0;
+
+}
+
+nav{
+    background-color: rgb(24, 99, 102);
+}
+
+a{
+    display: inline-block;
+    color:rgb(221, 214, 187);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding: 20px 15px ; 
+    height: 20px;
+    text-decoration: none;
+  
+
+}
+a:hover{
+background-color: rgb(228, 52, 125);
+font-weight: bold;
+color:rgb(46, 45, 42);
+}
+body{
+    margin : 0
+}
+header{
+        background-image: url(..//IMAGES/WEBD18_bandeau.svg);
+        background-repeat: no repeat;
+        background-size: cover; 
+        background-position-y: 20px;
+       
+        display: flex;
+        flex-direction : column;
+        justify-content: space-between;
+        height:70vh;
+}
+h1, header p{
+        color:rgb(248, 247, 245);
+        text-align: center;
+        font-family: 'Mochiy Pop P One', sans-serif;      
+}
+
+p{
+        text-underline-position: 10px;
+        text-align: justify;
+        font-size: small;
+        color:rgb(248, 247, 245);
+        font-family: 'Roboto', sans-serif; 
+}
+h2 {
+    color:rgb(248, 247, 245);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.section-paire{
+    background-color: rgb(151, 3, 84);
+}
+img{
+    width: 50%;
+    height: auto;
+}
+#div-retour{
+    width : 50%;
+    box-sizing : border-box;
+    padding-left : 15px;
+}
+#section-formationprof{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 50%;
+    height : auto;
+    object-fit : contain;
+    object-position: top;
+}
+
+h3 {
+    font-size: smaller;
+    color:rgb(248, 247, 245);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+header div{
+    padding-bottom: 10px;
+}
+
+main > section{
+    padding:50px 150px;
+    background-color: rgb(24, 99, 102);
+}
+
+#img-book img{
+    width: 24%;
+    height: auto;
+
+    box-sizing : border-box;
+    padding: 5px;
+}
+#img-book{
+    display:flex;
+    flex-wrap: wrap;
+}
+input:not([type=radio]), textarea{
+    width:100%;
+    box-sizing:border-box;
+    padding: 12px 20px;
+}
+form{
+    width:50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form-container{
+    display:flex;
+    justify-content:center;
+}
+#input-container {
+    display:flex;
+    justify-content: space-between;
+}
+#input-container div{
+   width:49%;
+}
+form>div, fieldset{
+    margin-bottom : 20 px;
+}
+
+input[type=submit]{
+    background-color: bisque; 
+    cursor:pointer; 
+    transition:0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=submit]:hover{
+    background-color: rgb(138, 173, 12);
+}
+@media(max-width: 1400px){
+    main > section{
+        padding:50px 125px;}
+}
+
+@media(max-width: 1200px){
+    #img-book img{
+        width: 33.3333%;
+    }
+    img{
+        width: 100%;
+    }
+    #div-retour{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 992px){
+    #img-book img{
+        width: 50%;
+    }
+    form{
+        width:70%;
+    }
+}
+
+@media(max-width: 768px){
+   main>section{
+       padding:50px 60px;
+    }
+    #img-book img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 576px){
+
+}
+
+@media(max-width: 576px){
+    main > section{
+        padding:10px 50px;
+    }
+         }
+         @font-face{
+             src: url(../fonts/Mochiy_Pop_P_One) ;
+             font-family: "sabine1";
+            }
+        @font-face{
+             src: url(../fonts/Roboto);
+             font-family: "sabine2";
+         }
+        
