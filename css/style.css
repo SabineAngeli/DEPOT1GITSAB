@@ -1,4 +1,7 @@
-li{
+html{
+    scroll-behavior: smooth;
+}
+    li{
     list-style-type: none; /* On ne veut aucune puce */
    
 }
@@ -200,4 +203,12 @@ input[type=submit]:hover{
              src: url(../fonts/Roboto);
              font-family: "sabine2";
          }
-        
+        footer {
+            background-color:rgb(228, 52, 125);
+            padding: 15px;}
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                font-size:smaller;}
+    
