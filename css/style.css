@@ -38,7 +38,7 @@ color:rgb(46, 45, 42);
 body{
     margin : 0
 }
-header{
+header {
         background-image: url(..//IMAGES/WEBD18_bandeau.svg);
         background-repeat: no repeat;
         background-size: cover; 
@@ -149,6 +149,25 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color: rgb(138, 173, 12);
 }
+
+footer {
+    background-color:rgb(228, 52, 125);
+    padding: 15px;}
+
+    footer p {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size:smaller;}
+
+        #haut{
+        color: white;
+        background-color: rgb(92, 128, 9);
+        position : fixed;
+        bottom : 20px;
+        right : 20px;
+        }
+
+
 @media(max-width: 1400px){
     main > section{
         padding:50px 125px;}
@@ -203,12 +222,4 @@ input[type=submit]:hover{
              src: url(../fonts/Roboto);
              font-family: "sabine2";
          }
-        footer {
-            background-color:rgb(228, 52, 125);
-            padding: 15px;}
-
-            p {
-                font-family: 'Roboto', sans-serif;
-                text-align: center;
-                font-size:smaller;}
-    
+      
